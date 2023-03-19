@@ -1,11 +1,11 @@
 import {List, ListItem, ListItemButton, ListItemText, Typography} from "@mui/material";
 import {filter, uniq} from "lodash";
-import AppContext from "../AppContext";
+import AppContext from "../../public/AppContext";
 import {useContext} from "react";
 import {useRouter} from "next/router";
 
 
-export default function Categories(props) {
+export default function Categories() {
     let categories = ['All'];
     const globalState = useContext(AppContext);
     const router = useRouter();

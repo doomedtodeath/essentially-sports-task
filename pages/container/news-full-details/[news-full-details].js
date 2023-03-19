@@ -2,12 +2,12 @@ import {useRouter} from "next/router";
 import {useEffect, useState, useContext} from "react";
 import RSSParser from "rss-parser";
 import {find} from 'lodash'
-import AppContext from "../../AppContext";
+import AppContext from "../../../public/AppContext";
 import {Box, CircularProgress, Typography} from '@mui/material'
 import '../../../styles/NewsFullDetails.module.css';
 
 
-export default function NewsFullDetails(props) {
+export default function NewsFullDetails() {
     const router = useRouter()
     const CORS_PROXY = "https://cors-anywhere.herokuapp.com/";
     let [data, setData] = useState();

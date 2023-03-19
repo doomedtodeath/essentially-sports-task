@@ -3,7 +3,7 @@ import {Chip, List, ListItem, ListItemText, Typography} from "@mui/material";
 import {useRouter} from "next/router";
 import {useContext, useEffect, useState} from "react";
 import RSSParser from "rss-parser";
-import AppContext from "../AppContext";
+import AppContext from "../../public/AppContext";
 import {cloneDeep, filter} from "lodash";
 
 

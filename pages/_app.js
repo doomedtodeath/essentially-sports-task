@@ -1,5 +1,5 @@
 import Layout from "./container/layout";
-import AppContext from "./AppContext";
+import AppContext from "../public/AppContext";
 import {useState} from "react";
 
 export default function App({Component, pageProps}) {

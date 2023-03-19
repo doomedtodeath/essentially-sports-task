@@ -1,5 +1,5 @@
 import NewsCard from "./news-card";
-import AppContext from "../AppContext";
+import AppContext from "../../public/AppContext";
 import {useContext} from 'react'
 import {Box, CircularProgress} from "@mui/material";
 

@@ -1,10 +1,10 @@
 import {TextField, InputAdornment} from "@mui/material";
 import {SearchRounded} from "@mui/icons-material";
-import AppContext from "../AppContext";
+import AppContext from "../../public/AppContext";
 import {useContext} from "react";
 import {filter} from "lodash";
 
-export default function Menu(props){
+export default function Menu(){
 
     const globalState = useContext(AppContext);
 
